@@ -1,0 +1,63 @@
+# ------------------------
+# Python virtual environments
+# ------------------------
+venv/
+env/
+.venv/
+gesture-env/
+hand-tracking/gesture-env/
+*/gesture-env/
+
+# ------------------------
+# Python cache & build
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# ------------------------
+# Large library binaries (TensorFlow, MediaPipe, JAX, etc.)
+# These MUST stay out of GitHub.
+# ------------------------
+*.so
+*.so.*
+*.dylib
+*.dll
+*.whl
+
+# ------------------------
+# Jupyter Notebook checkpoints
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# OS / editor junk files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# ESP32 / Arduino build files
+# ------------------------
+*.bin
+*.elf
+*.hex
+
+# ------------------------
+# Model files (OPTIONAL)
+# Uncomment if your model files are HUGE and stored somewhere else.
+# ------------------------
+# *.tflite
+# *.h5
+# *.pb
+# *.onnx
